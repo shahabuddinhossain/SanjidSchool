@@ -1,0 +1,73 @@
+.BGAnimator{
+	animation: BGAnimator 5s infinite;
+}
+
+@keyframes BGAnimator {
+	0%{
+		background-color: #E99DFC;
+	}
+	25%{
+		background-color: B2FC90;
+	}
+	50%{
+		background-color: #90D8FC;
+	}
+	75%{
+		background-color: #BFC4FF;
+	}
+	100%{
+		background-color: #E99DFC;
+	}
+}
+
+body{
+	background-color: #E99DFC;
+}
+
+.bgDark{
+	background: #443266;
+}
+
+.bgDark2{
+	background: #4F3A77;
+}
+
+.bgLight{
+	background: #4F3A77;
+}
+
+.titleLink{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.blinker{
+	animation: blinker 3s infinite;
+}
+@keyframes blinker {
+	0%{
+		color: #90F542;
+		opacity: 0%
+	}
+	100%{
+		color: #EF3E44;
+		opacity; 100%
+	}
+}
+
+.dropdown-menu{
+	background-color: #4F3A77 ;
+	/*color: #C6BADD;*/
+}
+
+.dropdown-item{
+	background-color: #4F3A77 ;
+	color: #C6BADD;
+	border: 1px black;
+}
+
+.dropdown-item:hover{
+	background-color: #4F3A77 ;
+	color: #ffffff;
+}
