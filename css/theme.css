@@ -1,5 +1,5 @@
 .BGAnimator{
-	animation: BGAnimator 5s infinite;
+	animation: BGAnimator 15s infinite;
 }
 
 @keyframes BGAnimator {
