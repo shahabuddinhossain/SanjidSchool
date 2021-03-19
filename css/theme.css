@@ -71,3 +71,16 @@ body{
 	background-color: #4F3A77 ;
 	color: #ffffff;
 }
+
+.marquee{
+	height: 150px;
+}
+
+.undecorated-text{
+text-decoration: none;
+color: red;
+}
+.undecorated-text:hover{
+	color: gray;
+	text-decoration: none;
+}
